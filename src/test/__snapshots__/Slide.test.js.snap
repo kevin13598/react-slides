@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Slide/> debe de mostrarse correctamente 1`] = `
+<div>
+  <div
+    className="text-center"
+    id="navigation"
+  >
+    <button
+      className="small outlined"
+      data-testid="button-restart"
+    >
+      Restart
+    </button>
+    <button
+      className="small"
+      data-testid="button-prev"
+    >
+      Prev
+    </button>
+    <button
+      className="small"
+      data-testid="button-next"
+    >
+      Next
+    </button>
+  </div>
+  <div
+    className="card text-center"
+    id="slide"
+  >
+    <h1
+      data-testid="title"
+    >
+      Today's workout plan
+    </h1>
+    <p
+      data-testid="text"
+    >
+      We're gonna do 3 fundamental exercises.
+    </p>
+  </div>
+</div>
+`;
